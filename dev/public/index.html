@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>es6-project: Router</title>
+  <link rel="icon" sizes="196x196" href="html5.png">
+  <style>
+    body { background:#ffffff; font-size: 13px; color: #666666; font-family: Arial, helvetica, sans-serif;}
+    h1 { color: #000000; }
+
+    #menu li
+    {
+      display: inline;
+    }
+
+  </style>
+
+  <link rel="stylesheet" type="text/css" href="node_modules/qunitjs/qunit/qunit.css">
+
+
+</head>
+
+<body style="padding: 20px">
+
+<h1>ECMAScript 6 | Skeleton MVC</h1>
+
+<ul id="menu">
+  <li><a href="#/toggle/form">Toggle Form</a></li>
+  <li><a href="#/toggle/list">Toggle List</a></li>
+</ul>
+
+
+<div id="human-form"></div>
+
+<div id="humans-list"></div>
+
+
+
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+
+<script src="node_modules/qunitjs/qunit/qunit.js"></script>
+<script src="node_modules/traceur/bin/traceur.js"></script>
+
+<script>
+  traceur.options.experimental = true;
+</script>
+
+<script>
+  System.import('js/main').catch(function (e) {console.error(e);});
+</script>
+</body>
+</html>

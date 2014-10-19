@@ -1,0 +1,12 @@
+{
+  "name": "es6",
+  "description": "es6 formation",
+  "author": "@k33g_org",
+  "license": "MIT",
+  "devDependencies": {
+    "qunitjs": "^1.15.0"
+  },
+  "dependencies": {
+    "traceur": "0.0.66"
+  }
+}
